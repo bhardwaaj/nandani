@@ -1,0 +1,7 @@
+User data:
+username : user
+password : user
+
+Doctor data:
+username : doc
+password : doc123

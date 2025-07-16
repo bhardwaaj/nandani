@@ -1,0 +1,142 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f4f8fb;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background: #1976d2;
+    color: #fff;
+    padding: 16px 0;
+    text-align: center;
+    margin-bottom: 32px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 18px;
+    font-weight: 500;
+    font-size: 1.1em;
+    transition: color 0.2s;
+}
+
+.navbar a:hover {
+    color: #ffeb3b;
+}
+
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+    padding: 32px 28px;
+}
+
+h2, h3 {
+    color: #1976d2;
+    margin-top: 0;
+}
+
+form input, form select, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 16px 0;
+    border: 1px solid #bdbdbd;
+    border-radius: 5px;
+    font-size: 1em;
+    background: #f9f9f9;
+    box-sizing: border-box;
+}
+
+form button {
+    background: #1976d2;
+    color: #fff;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+form button:hover {
+    background: #125ea7;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 24px;
+    background: #fafbfc;
+}
+
+th, td {
+    border: 1px solid #e0e0e0;
+    padding: 10px 8px;
+    text-align: left;
+}
+
+th {
+    background: #e3f2fd;
+    color: #1976d2;
+}
+
+tr:nth-child(even) {
+    background: #f4f8fb;
+}
+
+.flash {
+    background: #e3f2fd;
+    color: #1976d2;
+    padding: 10px 16px;
+    border-radius: 5px;
+    margin-bottom: 18px;
+    border: 1px solid #90caf9;
+    font-weight: 500;
+}
+
+.error {
+    background: #ffebee;
+    color: #c62828;
+    border: 1px solid #ef9a9a;
+}
+
+.card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.06);
+    padding: 18px 20px;
+    margin-bottom: 18px;
+}
+
+.btn {
+    display: inline-block;
+    background: #1976d2;
+    color: #fff !important;
+    padding: 8px 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 8px;
+    font-size: 1em;
+    transition: background 0.2s;
+}
+
+.btn:hover {
+    background: #125ea7;
+    color: #ffeb3b !important;
+}
+
+@media (max-width: 700px) {
+    .container {
+        max-width: 98vw;
+        padding: 12px 4vw;
+    }
+    .navbar {
+        font-size: 0.98em;
+        padding: 10px 0;
+    }
+} 
